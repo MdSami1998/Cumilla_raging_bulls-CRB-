@@ -65,8 +65,6 @@ body{
     border-radius: 5px;
 }
 .achievment-list{
-    /* border: 2px solid black;
-    border-radius: 75px 10px; */
     height: 70vh;
     margin: 10px;
     display: grid;
@@ -78,12 +76,25 @@ body{
 .player-detailCard{
     background-color: #DADADA;
 }
-.Playercard-frame{
-    overflow: hidden;
+.playerCard-bg{
+background-color: #fff;
+border-radius: 5px;
 }
-.Playercard-frame:hover .card{
-transform: scale(1.1);
-transition: transform 1.5s;
+.Playercard-frame{
+    padding: 7px;
+    transition: 0.5s;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.336);
+}
+.Playercard-frame:hover {
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.436);
+    padding: 0px;
+/* transform: scale(1.1);
+transition: transform 1.5s; */
+}
+.see-detailsBtn:hover{
+    font-size: 18px;
+    transition: 0.5s;
+    font-weight: 700;
 }
 .contact-form{
     border: 3px solid black;
@@ -96,9 +107,12 @@ transition: transform 1.5s;
     margin: 0 125px;
     width: 45%;
 }
-/* .modal-card{
-    font-family: 'Bree Serif', serif;
-} */
+.gallery{
+    cursor: pointer;
+}
+#gallery-modal .modal-img{
+width: 80%;
+}
 .hireMe-btn:hover, .modalClose-btn:hover {
     font-size: 20px;
     transition: .8s;
@@ -107,7 +121,6 @@ transition: transform 1.5s;
     text-decoration: none;
     color: black;
 }
-
 /* show players and hide players button designed starts here */
 .show-playersBtn, .hide-button{
     height: 2.5em;
@@ -118,7 +131,6 @@ transition: transform 1.5s;
     transition: all 0.2s linear;
     cursor: pointer;
     border: none;
-    /* background: #ebc36dda; */
     background: #fff;
    }
    
@@ -174,5 +186,4 @@ transition: transform 1.5s;
         margin: 0 125px;
         width: 31%;
     }
-    
   }
