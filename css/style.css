@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Bree Serif', serif; */
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: #121212;
+}
+.logo{
+    width: 15%;
+}
+.span {
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 20px;
+    color: #ebc36dda;
+    font-size: 80px;
+    margin-left: 15px;
+    font-weight: 600;
+}
+.section{
+background-color: #121212;
+padding: 50px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+box-shadow: 5px 5px 8px #21252B,
+            -5px -5px 8px #21252B ;
+            border-radius: 20px;
+}
+.section input{
+    color: white;
+    padding: 13px 8px;
+    margin-bottom: 30px;
+    width: 380px;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background-color: #6998ab49 ;
+    /* box-shadow: 0px 1px 4px #86C6F4,
+    -0px -0px 2px #86C6F4; */
+    box-shadow: 0px 1px 4px #ebc36dda,
+    -0px -0px 2px #ebc36dda;
+}
+.anchor-tag{
+    text-decoration: none;
+}
+.small-tag{
+    color: #ebc36dda;
+}
+.error-msg{
+    display: none;
+}
+button{
+    border: none;
+    border-radius: 10px;
+    color: #121212;
+    /* background-color: #86C6F4; */
+    background-color: #ebc36dda;
+    padding: 10px 30px;
+    width: 380px;
+}
+button:hover{
+    background:#ebc36dda ;
+    /* #6998AB */
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    transition: 0.5s;
+    box-shadow: 4px 4px 4px #fff;
+}
+.section div{
+    position: relative;
+}
+.section div label{
+    padding-left: 10px;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    /* color: #86C6F4; */
+    color: #ebc36dda;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.section input:focus ~ label,
+.section input:valid ~ label{
+    top: -2px;
+    left: 0;
+    color: #ebc36dda;
+    font-size: 14px;
+    font-weight: bold;
+}
+.section input:focus,
+.section input:valid{
+border-bottom: 2px solid #ebc36dda ;
+padding-top: 20px;
+}
+
+@media only screen and (max-width: 689px){
+    .logo{
+        width: 35%;
+    }
+    .section{
+        width: 350px;
+    }
+    .section input ,button{
+        width: 330px;
+    }
+}

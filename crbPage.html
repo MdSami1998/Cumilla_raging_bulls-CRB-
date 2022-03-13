@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap link added  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- bootstrap script tag added  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- vanilla css added  -->
+    <link rel="stylesheet" href="./css/CRB-Page css/style.css">
+
+    <!-- google font added  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Baloo+Bhai+2&family=Bebas+Neue&family=Bree+Serif&family=IBM+Plex+Sans:ital@1&family=Island+Moments&family=Luxurious+Roman&family=PT+Sans+Narrow&family=Poppins:wght@400;500&family=Varela+Round&display=swap"
+        rel="stylesheet">
+
+    <!-- AOS link added -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- font awesome link added  -->
+    <script src="https://kit.fontawesome.com/d6a3ef7ce9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light nav-bg">
+            <div class="container">
+                <img class="img-fluid" src="./images/CRB-Page/CRB-logo.png" alt="">
+                <h1 class="heading">Cumilla Raging Bulls</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                        <li class="nav-item">
+                            <a class="li-text nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="li-text nav-link" aria-current="page" href="#achievment">Achievment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="li-text nav-link" href="#players">Club Players</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="li-text nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- main part starts here  -->
+
+    <main>
+
+        <!-- carousel starts here  -->
+
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner carousel-height">
+                    <div class="carousel-item active">
+                        <img src="./images/CRB-Page/CRB-logo (Custom).png"
+                            class="d-block w-25 mx-auto mt-3 carousel-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-height">
+                        <img src="./images/CRB-Page/image1.png" class="d-block mx-auto mt-3 carousel-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-height">
+                        <img src="./images/CRB-Page/image4 (Custom).jpg" class="d-block mx-auto mt-3 carousel-img"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- carousel ends here  -->
+
+
+        <!-- achievment section starts here  -->
+
+        <section data-aos="fade-down" id="achievment" class=" container my-4">
+            <div>
+                <h1 class="section-header text-center pt-5">Our Achievment</h1>
+            </div>
+            <div class="achievment-display">
+                <img src="./images/CRB-logo.png" data-aos="fade-right" alt="">
+                <div data-aos="fade-left">
+                    <ul class="fs-3 fw-bold p-5 achievment-list">
+                        <li>Club championship Winner of EMPL Group</li>
+                        <li>Club championship Winner of EMPL Group</li>
+                        <li>Club championship Winner of EMPL Group</li>
+                        <li>Club championship Winner of EMPL Group</li>
+                        <li>Club championship Winner of EMPL Group</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- achievment section ends here  -->
+
+        <!-- gallery sectionn starts here  -->
+        <section id="gallery" class="container my-5 gallery">
+            <h1 class="section-header text-center text-light">Club Gallery</h1>
+
+        </section>
+        <!-- gallery sectionn ends here  -->
+
+        <!-- player list starts -->
+
+        <!-- players previous data  -->
+        <section id="previous-data" class="container mt-5">
+            <div id="players">
+                <h1 class="section-header text-center text-light pb-4">Club Players</h1>
+                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+                    <div class="col Playercard-frame">
+                        <div class="card h-100">
+                            <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Obcaecati, tenetur!</p>
+
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn fw-bold text-dark mb-3" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    See
+                                    Details <i class="fa-solid fa-arrow-right-long ms-1"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col Playercard-frame">
+                        <div class="card h-100">
+                            <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+                                    provident.</p>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn fw-bold text-primary mb-3" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    See
+                                    Details <i class="fa-solid fa-arrow-right-long ms-1"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col Playercard-frame">
+                        <div class="card h-100">
+                            <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+                                    provident.</p>
+
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn fw-bold text-primary mb-3" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    See
+                                    Details <i class="fa-solid fa-arrow-right-long ms-1"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col Playercard-frame">
+                        <div class="card h-100">
+                            <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+                                    provident.</p>
+
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn fw-bold text-primary mb-3" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    See
+                                    Details <i class="fa-solid fa-arrow-right-long ms-1"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content" style="background-color: #fff;">
+                        <div class="modal-header">
+                            <h3 class="modal-title fw-bolder" id="exampleModalLabel">Md. Sami Al Zaber</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./images/pic1.jpg" alt="">
+                            <p class="pt-4 fs-5 modal-card">
+                                <span class="fw-bold">Win Ratio:</span> 100% <br>
+                                <span class="fw-bold">District:</span> Cumilla <br>
+                                <span class="fw-bold">District:</span> Cumilla <br>
+                            </p>
+
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <a href="https://www.facebook.com/samial.zaber.7"
+                                class="btn fw-bold px-4 mx-5 mb-5 shadow hireMe-btn" style="background-color: #fff;"
+                                target="_blank">Hire me</a>
+                            <button type="button" class="btn px-4 mx-5 mb-5 fw-bold shadow modalClose-btn"
+                                data-bs-dismiss="modal" style="background-color:#fff;">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- show players button starts  -->
+        <div class="container d-flex justify-content-end my-3">
+            <button id="show-more" class="show-playersBtn" onclick="showMore()">Show all players <i
+                    class="fa-solid fa-arrow-right-long"></i></button>
+        </div>
+
+        <!-- players new all list here -->
+        <!-- <section id="new-data" class="container mt-5 player-details">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-name fw-bolder text-success">Name: Md. Sami Al Zaber</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="playersDetail()" class="btn fw-bold text-primary">See
+                                Details <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+        <section id="contact" class="container bg-light my-4">
+            <h1 class="section-header text-center pt-5 mb-3">Contact Us</h1>
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="p-4">
+                    <div data-aos="fade-left" class="col contact-form p-4">
+                        <input type="email" name="" id="" class="px-2 py-1 mb-3" placeholder="Your Email">
+                        <br>
+                        <input type="password" name="" id="" class="px-2 py-1" placeholder="Your password">
+                        <br>
+                        <textarea name="" class="mt-3 px-2 py-1" cols="30" rows="5">Your Message</textarea>
+                        <br>
+                        <button type="button" class="btn px-4 fw-bold shadow"
+                            style="background-color:#fff;">Send</button>
+                    </div>
+                </div>
+                <div data-aos="fade-right" class="col">
+                    <div class="p-4">
+                        <div class="col  p-3">
+                            <img src="./images/goal1.svg" class="w-100" alt="">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="py-4" style="background-color: rgba(255, 255, 255, 0.753);">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div>
+                <small>Copyright © 2022 All right reserved. | CumillaRagingBulls Team</small>
+            </div>
+            <div class="d-flex justify-content-center socialMedia-icon">
+                <a href="https://www.facebook.com/cumillaragingbulls" target="_blank"><span class="fw-bold fs-3"><i class="fa-brands fa-facebook"></i></span></a>
+            <a href="https://www.facebook.com/cumillaragingbulls" target="_blank" class="px-3"><span class="fw-bold fs-3"><i class="fa-brands fa-instagram-square"></i></span> </a>
+            <a href="https://www.facebook.com/cumillaragingbulls" target="_blank"><span class="fw-bold fs-3"><i class="fa-brands fa-whatsapp"></i></span> </a>
+            </div>
+            
+        </div>
+        
+    </footer>
+
+    <!-- javaScript added here  -->
+    <script src="./js/CRB-Page JS/script.js"></script>
+
+    <!-- AOS script link added -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1000,
+        });
+    </script>
+</body>
+
+</html>
