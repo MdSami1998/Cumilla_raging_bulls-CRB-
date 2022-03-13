@@ -5,7 +5,7 @@ document.getElementById('log-in').addEventListener('click', function () {
     const password = document.getElementById('password');
     const passwordValue = password.value;
     if (emailValue == 'cumillaragingbulls@gmail.com' && passwordValue == 'crb12') {
-        window.location.href = '/CRB-Page/crb-page.html';
+        window.location.href = 'crbPage.html';
     }
     else {
         const errorMessage = document.getElementById('error-handle');
